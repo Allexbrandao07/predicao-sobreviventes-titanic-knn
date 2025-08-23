@@ -2,11 +2,11 @@
 
 Este repositório contém um notebook em Python que demonstra um fluxo de trabalho completo de Machine Learning para prever a sobrevivência de passageiros do Titanic, utilizando o algoritmo K-Nearest Neighbors (KNN).
 
-## 🚢 Sobre o Projeto
+## Sobre o Projeto
 
 O objetivo principal é aplicar técnicas de pré-processamento de dados em um dataset real e, em seguida, treinar e avaliar um modelo de classificação KNN. O notebook é estruturado de forma didática, ideal para fins de estudo e demonstração de conceitos fundamentais em ciência de dados.
 
-## 🚀 Como Executar o Notebook
+## Como Executar o Notebook
 
 Para que o código funcione corretamente, é necessário que o arquivo `train.csv` esteja no mesmo ambiente de execução do notebook.
 
@@ -24,7 +24,7 @@ Para que o código funcione corretamente, é necessário que o arquivo `train.cs
 
 3.  **Execute o código:** Com o arquivo no lugar certo, basta executar as células do notebook em ordem.
 
-### 📊 Metodologia
+### Metodologia
 
 O processo abordado no código segue as seguintes etapas:
 
@@ -43,7 +43,7 @@ O processo abordado no código segue as seguintes etapas:
     * Realização de previsões no conjunto de teste.
     * Cálculo da acurácia do modelo para medir seu desempenho.
 
-### 🛠️ Bibliotecas Utilizadas
+### Bibliotecas Utilizadas
 
 * **Pandas:** Para manipulação e análise de dados.
 * **NumPy:** Para operações numéricas.
