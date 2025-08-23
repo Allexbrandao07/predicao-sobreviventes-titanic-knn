@@ -6,13 +6,40 @@ Este repositório contém um notebook em Python que demonstra um fluxo de trabal
 
 O objetivo principal é aplicar técnicas de pré-processamento de dados em um dataset real e, em seguida, treinar e avaliar um modelo de classificação KNN. O notebook é estruturado de forma didática, ideal para fins de estudo e demonstração de conceitos fundamentais em ciência de dados.
 
+## Estrutura do Projeto
+
+Este repositório contém duas versões principais do código, cada uma com um propósito específico:
+
+* **`analise_preditiva_titanic_knn.ipynb`**: Um **Jupyter Notebook** que serve como um relatório detalhado da análise. Ele contém o passo a passo com explicações, visualizações e as saídas de cada célula, ideal para estudo e apresentação do processo.
+* **`analise_preditiva_titanic_knn.py`**: Um **script Python (.py)** que é a versão refatorada e limpa do notebook. Este arquivo é modular, reutilizável e pode ser executado diretamente pelo terminal, sendo ideal para automação e implementação.
+* **`train.csv`**: O conjunto de dados de treinamento contendo informações sobre os passageiros.
+
+
 ## Como Executar o Notebook
 
 Para que o código funcione corretamente, é necessário que o arquivo `train.csv` esteja no mesmo ambiente de execução do notebook.
 
-1.  **Faça o download dos arquivos:** Clone ou baixe este repositório para a sua máquina.
+### Usando Git Clone (Recomendado)
 
-2.  **Carregue o dataset:**
+1.  **Pré-requisito:** Tenha o [Git](https://git-scm.com/) e Python instalados.
+
+2.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+    ```
+
+3.  **Navegue até a pasta e instale as dependências:**
+    ```bash
+    cd nome-do-repositorio
+    pip install pandas numpy scikit-learn
+    ```
+
+4.  **Execute o script:**
+    ```bash
+    python train_titanic_knn.py
+    ```
+
+5.  **Carregue o dataset:**
     * **Se estiver usando o Google Colab:**
         1.  No painel à esquerda, clique no ícone de pasta (Arquivos).
         2.  Clique no botão "Fazer upload para o armazenamento da sessão".
@@ -22,7 +49,7 @@ Para que o código funcione corretamente, é necessário que o arquivo `train.cs
     * **Se estiver usando Jupyter Notebook (localmente):**
         1.  Certifique-se de que o arquivo `train.csv` está na mesma pasta onde você salvou o notebook (`.ipynb`).
 
-3.  **Execute o código:** Com o arquivo no lugar certo, basta executar as células do notebook em ordem.
+6.  **Execute o código:** Com o arquivo no lugar certo, basta executar as células do notebook em ordem.
 
 ### Metodologia
 
